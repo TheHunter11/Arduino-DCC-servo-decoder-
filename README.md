@@ -5,14 +5,14 @@ A simple low cost Arduino based DIY DCC decoder has been done many times before,
 
 Currently the code has been tested with 12 servos, but it is technically scalable up to 89 servos, although this may be limited by SRAM size.
 
-##Features
+## Features
 - Two configurable positions per servo
 - Per servo configurable speed
     -Currently implemented as the time (ms) between degree steps, making the speed dependent on the movement length
 - Killing servos after reaching position after a globally configurable time
 - Checking servos after a configurable time for a configurable duration
 
-##Goal
+## Goal
 
 The goal is to use widely available parts for the physical decoder and avoid the need for a custom PCB.
 
