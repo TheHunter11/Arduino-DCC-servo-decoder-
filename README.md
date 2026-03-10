@@ -8,7 +8,7 @@ Currently the code has been tested with 12 servos, but it is technically scalabl
 ## Features
 - Two configurable positions per servo
 - Per servo configurable speed
-    -Currently implemented as the time (ms) between degree steps, making the speed dependent on the movement length
+    - Currently implemented as the time (ms) between degree steps, making the speed dependent on the movement length
 - Killing servos after reaching position after a globally configurable time
 - Checking servos after a configurable time for a configurable duration
 
